@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { "iyzico" => "integration@iyzico.com" } 
   s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'iyzicoSDK.framework'
-  s.source        = { :git => 'https://github.com/iyzico/iyzico-podspecs.git',
+  s.source        = { :git => 'https://github.com/tiskender2/testiyzico.git',
 			 :tag => s.version.to_s
 		 	}
   s.swift_version = '5.0'
