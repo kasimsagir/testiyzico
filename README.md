@@ -1,1 +1,1 @@
-# testiyzico
+# iyzico-podspecs
