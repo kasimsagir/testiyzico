@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "iyzicoSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "iyzico’nun güvenli ve kolay ödeme hizmetleri yer alır."
   s.description  = <<-DESC
 		   iyzico'nun güvenli ve kolay ödeme yöntemi olan Pay with iyzico ürününü, 		   müşterilerin bakiyelerine yükleme yapmak için kullanabilecekleri Top-up 		   ürününü ve hediye puanlarını bakiyelerine alabilecekleri Cash-out 			   ürününü içermektedir
