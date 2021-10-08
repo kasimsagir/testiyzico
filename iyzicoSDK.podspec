@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.exclude_files = "Classes/Exclude"
 
-  s.dependency 'Alamofire', '5.4.4'
-  s.dependency 'IQKeyboardManagerSwift', '6.5.6'
-  s.dependency 'lottie-ios', '3.2.1'
-  s.dependency 'SVGKit', '3.0.0'
-  s.dependency 'CocoaLumberjack/Core', '3.7.2'
+  s.dependency 'Alamofire'
+  s.dependency 'IQKeyboardManagerSwift'
+  s.dependency 'lottie-ios'
+  s.dependency 'SVGKit'
+  s.dependency 'CocoaLumberjack/Core'
 
  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
