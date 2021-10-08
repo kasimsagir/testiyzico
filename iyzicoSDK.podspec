@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.exclude_files = "Classes/Exclude"
 
+  s.requires_arc = true
   s.dependency 'Alamofire'
   s.dependency 'IQKeyboardManagerSwift'
   s.dependency 'lottie-ios'
