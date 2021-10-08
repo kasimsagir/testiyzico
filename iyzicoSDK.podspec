@@ -21,10 +21,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.dependency 'Alamofire'
-  s.dependency 'IQKeyboardManagerSwift'
-  s.dependency 'lottie-ios'
-  s.dependency 'SVGKit'
-  s.dependency 'CocoaLumberjack/Core'
 
  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
