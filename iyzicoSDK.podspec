@@ -20,7 +20,11 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'iyzicoSDK/Sources/module.modulemap'
 
   s.requires_arc = true
-  s.dependency 'Alamofire'
+  s.ios.dependency 'Alamofire'
+  s.ios.dependency 'IQKeyboardManagerSwift'
+  s.ios.dependency 'lottie-ios'
+  s.ios.dependency 'SVGKit'
+  s.ios.dependency 'CocoaLumberjack/Core'
 
  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
