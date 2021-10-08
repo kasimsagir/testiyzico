@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 		 	}
   s.swift_version = '5.0'
   s.exclude_files = "Classes/Exclude"
+  s.preserve_paths = 'iyzicoSDK/Sources/module.modulemap'
 
   s.requires_arc = true
   s.dependency 'Alamofire'
